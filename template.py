@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO,format="[%(asctime)s]:%(message)s:")
 
-project_name = "Wine-Quality-ML-Project"
+project_name = "Wine_Quality_ML_Project"
 
 list_of_files = [
     f"src/{project_name}/__init__.py",
