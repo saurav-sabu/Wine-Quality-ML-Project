@@ -1,1 +1,1 @@
-Wine-Quality-ML-Project
+Wine_Quality_ML_Project

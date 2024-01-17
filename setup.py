@@ -7,7 +7,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Wine-Quality-ML-Project"
 AUTHOR_USER_NAME = "saurav-sabu"
-SRC_REPO = "Wine-Quality-ML-Project"
+SRC_REPO = "Wine_Quality_ML_Project"
 AUTHOR_EMAIL = "saurav.sabu9@gmail.com"
 
 setup(
