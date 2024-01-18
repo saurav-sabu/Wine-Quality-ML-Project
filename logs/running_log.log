@@ -1,2 +1,34 @@
-[2024-01-17 11:54:50,540:INFO:main:hello, this is my first project on ML using modular coding]
-[2024-01-17 11:56:23,186:INFO:main:Let's start the work]
+[2024-01-18 11:30:26,842:INFO:main:Data Ingestion Stage STARTED]
+[2024-01-18 11:30:26,844:INFO:common:yaml file: config/config.yaml loaded]
+[2024-01-18 11:30:26,844:INFO:common:yaml file: params.yaml loaded]
+[2024-01-18 11:30:26,847:INFO:common:yaml file: schema.yaml loaded]
+[2024-01-18 11:30:26,847:INFO:common:created directory at: artifacts]
+[2024-01-18 11:30:26,847:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-01-18 11:30:27,488:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 26148
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "3a0d88cacc77beac7967671b263cb53d7852b9f13bd89c20dedebb8aaf1c9965"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BB8E:84801:91F105:A04B95:65A8B446
+Accept-Ranges: bytes
+Date: Thu, 18 Jan 2024 06:00:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4748-BOM
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1705557627.214115,VS0,VE270
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 77f84b8313d031787565cc432bc43c7a53e55202
+Expires: Thu, 18 Jan 2024 06:05:27 GMT
+Source-Age: 0
+
+]
+[2024-01-18 11:30:27,491:INFO:main:Data Ingestion Stage COMPLETED]
