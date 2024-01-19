@@ -1,10 +1,10 @@
-[2024-01-18 12:46:32,214:INFO:main:Data Ingestion Stage STARTED]
-[2024-01-18 12:46:32,217:INFO:common:yaml file: config/config.yaml loaded]
-[2024-01-18 12:46:32,218:INFO:common:yaml file: params.yaml loaded]
-[2024-01-18 12:46:32,220:INFO:common:yaml file: schema.yaml loaded]
-[2024-01-18 12:46:32,221:INFO:common:created directory at: artifacts]
-[2024-01-18 12:46:32,221:INFO:common:created directory at: artifacts/data_ingestion]
-[2024-01-18 12:46:32,636:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
+[2024-01-19 12:36:11,930:INFO:main:Data Ingestion Stage STARTED]
+[2024-01-19 12:36:11,934:INFO:common:yaml file: config/config.yaml loaded]
+[2024-01-19 12:36:11,935:INFO:common:yaml file: params.yaml loaded]
+[2024-01-19 12:36:11,938:INFO:common:yaml file: schema.yaml loaded]
+[2024-01-19 12:36:11,938:INFO:common:created directory at: artifacts]
+[2024-01-19 12:36:11,938:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-01-19 12:36:12,063:INFO:data_ingestion:artifacts/data_ingestion/data.zip download! with following info: 
 Connection: close
 Content-Length: 26148
 Cache-Control: max-age=300
@@ -15,37 +15,44 @@ Strict-Transport-Security: max-age=31536000
 X-Content-Type-Options: nosniff
 X-Frame-Options: deny
 X-XSS-Protection: 1; mode=block
-X-GitHub-Request-Id: BB8E:84801:91F105:A04B95:65A8B446
+X-GitHub-Request-Id: 9D0C:BD42A:B4EC95:C68D4B:65AA1F06
 Accept-Ranges: bytes
-Date: Thu, 18 Jan 2024 07:16:32 GMT
+Date: Fri, 19 Jan 2024 07:06:12 GMT
 Via: 1.1 varnish
-X-Served-By: cache-bom4740-BOM
+X-Served-By: cache-bom4725-BOM
 X-Cache: HIT
 X-Cache-Hits: 1
-X-Timer: S1705562193.615972,VS0,VE17
+X-Timer: S1705647972.054697,VS0,VE1
 Vary: Authorization,Accept-Encoding,Origin
 Access-Control-Allow-Origin: *
 Cross-Origin-Resource-Policy: cross-origin
-X-Fastly-Request-ID: 4b5fdde255a844e5d174a843d440a922a14eb2a9
-Expires: Thu, 18 Jan 2024 07:21:32 GMT
-Source-Age: 268
+X-Fastly-Request-ID: e944cb492a6f70f3622893f0dd6208f3c38be469
+Expires: Fri, 19 Jan 2024 07:11:12 GMT
+Source-Age: 93
 
 ]
-[2024-01-18 12:46:32,639:INFO:main:Data Ingestion Stage COMPLETED]
-[2024-01-18 12:46:32,639:INFO:main:Data Valdiation Stage STARTED]
-[2024-01-18 12:46:32,641:INFO:common:yaml file: config/config.yaml loaded]
-[2024-01-18 12:46:32,642:INFO:common:yaml file: params.yaml loaded]
-[2024-01-18 12:46:32,645:INFO:common:yaml file: schema.yaml loaded]
-[2024-01-18 12:46:32,646:INFO:common:created directory at: artifacts]
-[2024-01-18 12:46:32,646:INFO:common:created directory at: artifacts/data_validation]
-[2024-01-18 12:46:32,661:INFO:main:Data Valdiation Stage COMPLETED]
-[2024-01-18 12:46:32,661:INFO:main:Data Transformation Stage STARTED]
-[2024-01-18 12:46:32,664:INFO:common:yaml file: config/config.yaml loaded]
-[2024-01-18 12:46:32,664:INFO:common:yaml file: params.yaml loaded]
-[2024-01-18 12:46:32,667:INFO:common:yaml file: schema.yaml loaded]
-[2024-01-18 12:46:32,667:INFO:common:created directory at: artifacts]
-[2024-01-18 12:46:32,667:INFO:common:created directory at: artifacts/data_transformation]
-[2024-01-18 12:46:32,691:INFO:data_transformation:Splitting the data into training and test sets]
-[2024-01-18 12:46:32,691:INFO:data_transformation:(1199, 12)]
-[2024-01-18 12:46:32,691:INFO:data_transformation:(400, 12)]
-[2024-01-18 12:46:32,691:INFO:main:Data Transformation Stage COMPLETED]
+[2024-01-19 12:36:12,065:INFO:main:Data Ingestion Stage COMPLETED]
+[2024-01-19 12:36:12,065:INFO:main:Data Valdiation Stage STARTED]
+[2024-01-19 12:36:12,069:INFO:common:yaml file: config/config.yaml loaded]
+[2024-01-19 12:36:12,070:INFO:common:yaml file: params.yaml loaded]
+[2024-01-19 12:36:12,073:INFO:common:yaml file: schema.yaml loaded]
+[2024-01-19 12:36:12,073:INFO:common:created directory at: artifacts]
+[2024-01-19 12:36:12,073:INFO:common:created directory at: artifacts/data_validation]
+[2024-01-19 12:36:12,086:INFO:main:Data Valdiation Stage COMPLETED]
+[2024-01-19 12:36:12,087:INFO:main:Data Transformation Stage STARTED]
+[2024-01-19 12:36:12,090:INFO:common:yaml file: config/config.yaml loaded]
+[2024-01-19 12:36:12,091:INFO:common:yaml file: params.yaml loaded]
+[2024-01-19 12:36:12,094:INFO:common:yaml file: schema.yaml loaded]
+[2024-01-19 12:36:12,094:INFO:common:created directory at: artifacts]
+[2024-01-19 12:36:12,095:INFO:common:created directory at: artifacts/data_transformation]
+[2024-01-19 12:36:12,119:INFO:data_transformation:Splitting the data into training and test sets]
+[2024-01-19 12:36:12,119:INFO:data_transformation:(1199, 12)]
+[2024-01-19 12:36:12,119:INFO:data_transformation:(400, 12)]
+[2024-01-19 12:36:12,119:INFO:main:Data Transformation Stage COMPLETED]
+[2024-01-19 12:36:12,120:INFO:main:Model Trainer Stage STARTED]
+[2024-01-19 12:36:12,123:INFO:common:yaml file: config/config.yaml loaded]
+[2024-01-19 12:36:12,124:INFO:common:yaml file: params.yaml loaded]
+[2024-01-19 12:36:12,127:INFO:common:yaml file: schema.yaml loaded]
+[2024-01-19 12:36:12,127:INFO:common:created directory at: artifacts]
+[2024-01-19 12:36:12,127:INFO:common:created directory at: artifacts/model_trainer]
+[2024-01-19 12:36:12,200:INFO:main:Model Trainer Stage COMPLETED]
